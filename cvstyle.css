@@ -1,0 +1,92 @@
+.header{
+	border-color: #C4F1BE;
+	margin: 0px 10px 0px 10px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+
+.info{
+	float:left;
+	width:50%;
+}
+
+.header:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img{
+	border-radius:50%;
+	width:190px;
+	height: 180px;
+	padding: 10px 300px 10px 300px;
+}
+
+  .row{
+    display: flex;
+       justify-content: center;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .columnContent{
+    flex: 50%;
+  }
+
+#name{
+	font-family: Tahoma;
+	font-weight: bold;
+	color:#DE6B48;
+	font-size: 35px;
+	margin: 30px 10px 5px 10px;
+	padding-top: 20px;
+	padding-left:0px;
+
+}
+
+#description{
+	font-family: 'Courier New', Courier, monospace;
+	color:#A2C3A4;
+	font-size:18px;
+	margin: 5px 10px 5px 10px;
+	padding-left: 0px;
+}
+
+#section{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size:23px;
+	color: #DE6B48;
+	width:bold;
+	text-align: center;
+	margin-bottom: 5px;
+
+}
+
+#institution{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:18px;
+	color:#A2C3A4;
+	text-align: center;
+	font-weight: lighter;
+	margin-bottom: 5px;
+	margin-top:10px;
+}
+
+#last{
+	font-family: 'Courier New', Courier, monospace;
+	color: #525B76;
+	font-size: 14px;
+	text-align:center;
+	font-weight: bold;
+	margin:0px 0px 0px 0px;
+}
+
+a{
+	color:#525B76;
+}
+
